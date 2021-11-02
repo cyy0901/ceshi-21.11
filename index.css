@@ -1,0 +1,292 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: #333333;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+
+/* 第一部分  头部 */
+
+.content {
+    width: 100%;
+    min-width: 1200px;
+}
+
+.con {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.header {
+    height: 90px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header>img {
+    height: 60px;
+    margin: 15px;
+}
+
+.header>ul {
+    width: 300px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 60px;
+    margin: 15px;
+    font-size: 18px;
+}
+
+.header>ul>li>img {
+    margin: 15px 0;
+}
+
+.nav {
+    width: 100%;
+    height: 50px;
+    background-image: url(./img/图层\ 5\ 副本.png);
+}
+
+.nav_li>ul {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.nav_li>ul>li {
+    width: 100px;
+    height: 20px;
+    line-height: 20px;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    border-right: 1px solid #FFFFFF;
+    margin: 15px 0;
+}
+
+.last:last-of-type {
+    border-right: none;
+}
+
+
+/* 第二部分  轮播图部分 */
+
+.lunbo {
+    width: 100%;
+    height: 430px;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 430px;
+    overflow: hidden;
+    position: absolute;
+}
+
+.swiper-slide>img {
+    width: 100%;
+    height: 430px;
+}
+
+.swiper-pagination {
+    position: relative;
+    top: 380px;
+    left: 0;
+}
+
+.swiper-pagination li {
+    width: 200px;
+    height: 10px;
+}
+
+.lunbo_center {
+    height: 300px;
+    position: absolute;
+    top: 105px;
+    left: 80px;
+}
+
+.lunbo_center>p {
+    font-size: 34px;
+    color: white;
+    margin-bottom: 15px;
+    width: 95%;
+}
+
+.lunbo_center>span {
+    display: block;
+    width: 95%;
+    font-size: 14px;
+    color: white;
+}
+
+.lunbo_center>ul {
+    width: 600px;
+    height: 40px;
+    line-height: 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: space-around;
+    font-style: 14px;
+    margin-top: 20px;
+}
+
+.lunbo_center>ul>li {
+    color: #93d2c7;
+    ;
+}
+
+
+/* 第三部分 */
+
+.table {
+    margin-top: 60px;
+}
+
+.table>p {
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+.table>span {
+    font-size: 14px;
+}
+
+.table_ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 30px 0;
+}
+
+.table_ul>li {
+    width: 25%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.table_ul div {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 2px solid #93CAC1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.table_ul p {
+    font-size: 16px;
+    margin: 15px 0;
+}
+
+.table_ul span {
+    width: 260px;
+    text-align: center;
+    font-size: 12px;
+    color: #666666;
+}
+
+
+/* 第四部分 */
+
+.bot_bgcolor {
+    background-color: #EDF4F3;
+    overflow: hidden;
+}
+
+.bottom_ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 65px 0;
+}
+
+.bottom_ul>li {
+    width: 380px;
+    height: 400px;
+    /* background-color: #fff; */
+}
+
+.bottom_ul>li>p {
+    font-size: 22px;
+}
+
+.bottom_ul>li>span {
+    display: block;
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.Global_ul>li {
+    margin: 10px 0;
+    font-size: 14px;
+    color: #666666;
+}
+
+.Global_ul>li>span {
+    margin-top: 5px;
+    margin-right: 10px;
+    border: 5px solid #EDF4F3;
+    border-left: 5px solid #333;
+    float: left;
+    overflow: hidden;
+    height: 0;
+    width: 0;
+}
+
+.bottom_ul>li>a {
+    font-size: 14px;
+    color: #93d2c7;
+    display: block;
+    margin-top: 20px;
+}
+
+
+/* 底部 */
+
+.footer {
+    height: 220px;
+    background-color: #363636;
+}
+
+.footer_con {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.footer_con>img {
+    width: 10%;
+    height: 25%;
+}
+
+.footer_con>div {
+    width: 89%;
+    padding: 0 55px;
+}
+
+.footer_con>div>p {
+    color: #93d2c7;
+    font-size: 14px;
+}
+
+.footer_con>div>span {
+    display: block;
+    color: #999999;
+    font-size: 12px;
+    margin-top: 10px;
+}
